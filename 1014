@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int a;
+    float b,ttl;
+    scanf("%d%f",&a,&b);
+    ttl = a/b;
+    printf("%.3f km/l\n",ttl);
+    return 0;
+}
+
