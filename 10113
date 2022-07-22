@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int num1,num2,num3,big;
+    scanf("%d%d%d",&num1,&num2,&num3);
+    big=num1;
+    if(num1<num2 || num1<num3)
+        if(num2<num3)
+    {
+        big = num3;
+    }
+    else
+    {
+        big = num2;
+    }
+    printf("%d eh o maior\n",big);
+}
