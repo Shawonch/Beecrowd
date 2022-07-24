@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int hr,km;
+    double value;
+    scanf("%d%d",&hr,&km);
+    value = (hr*km)/12.0;
+    printf("%.3lf\n",value);
+}
