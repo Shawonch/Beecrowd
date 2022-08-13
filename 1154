@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    float x,sum=0,count=0,ave=0;
+    while(1)
+    {
+        scanf("%f",&x);
+        if(x>0)
+        {
+            count++;
+            sum=sum+x;
+
+        }
+        else if(0>x)
+        {
+            break;
+        }
+
+    }
+    ave=sum/count;
+    printf("%.2f\n",ave);
+}
