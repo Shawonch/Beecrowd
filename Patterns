@@ -1,0 +1,63 @@
+n
+
+#include<stdio.h>
+int main()
+{
+    int i,j,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+
+}
+
+n
+
+#include<stdio.h>
+int main()
+{
+    int i,j,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+
+}
+
+N*M
+
+#include<stdio.h>
+int main()
+{
+    int i,j,n,m;
+    scanf("%d%d",&n,&m);
+
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=m;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+
+}
+
+
+
+
+
+
