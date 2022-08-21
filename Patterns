@@ -1,4 +1,4 @@
-n
+N=1
 
 #include<stdio.h>
 int main()
@@ -17,26 +17,8 @@ int main()
 
 }
 
-n
 
-#include<stdio.h>
-int main()
-{
-    int i,j,n;
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
-    {
-        for(j=1;j<=n;j++)
-        {
-            printf("*");
-        }
-        printf("\n");
-
-    }
-
-}
-
-N*M
+N*M=2
 
 #include<stdio.h>
 int main()
@@ -54,6 +36,132 @@ int main()
 
     }
 
+}
+
+N=3
+
+#include<stdio.h>
+int main()
+{
+    int i,j,n,m;
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+
+}
+
+N=4
+
+#include<stdio.h>
+int main()
+{
+    int i,j,k,n;
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n-i;j++)
+        {
+            printf(" ");
+        }
+        for(k=1;k<=i;k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+
+}
+
+N=5
+
+#include<stdio.h>
+int main()
+{
+    int i,j,k,n;
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n-i;j++)
+        {
+            printf(" ");
+        }
+        for(k=1;k<=2*i-1;k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+
+}
+
+N=6
+
+#include<stdio.h>
+int main()
+{
+    int i,j,k,n;
+    scanf("%d",&n);
+
+    for(i=n;i>=1;i--)
+    {
+        for(j=1;j<=n-i;j++)
+        {
+            printf(" ");
+        }
+        for(k=1;k<=2*i-1;k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+
+}
+
+
+N=7
+
+#include<stdio.h>
+int main()
+{
+    int i,j,k,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n-i;j++)
+        {
+            printf(" ");
+        }
+        for(k=1;k<=i;k++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    for(i=n-1;i>=1;i--)
+    {
+        for(j=1;j<=n-i;j++)
+        {
+            printf(" ");
+        }
+        for(k=1;k<=i;k++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
 }
 
 
