@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    int i,n,sum;
+    while(1)
+    {
+        sum=0;
+        scanf("%d",&n);
+        if(n==0)
+        {
+            break;
+        }
+        if(n%2 !=0)
+        {
+            n++;
+        }
+        for(i=0;i<5;i++)
+        {
+            sum=sum+n;
+            n=n+2;
+        }
+        printf("%d\n",sum);
+    }
+}
