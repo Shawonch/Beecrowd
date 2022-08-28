@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    double x, z;
+    int y;
+    scanf("%lf", &x);
+    y = x;
+    z = x - y;
+ 
+    if(x == y)
+        printf("int %d", y);
+    else
+        printf("float %d %.3lf", y, z);
+    return 0;
+}
