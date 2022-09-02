@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int m;
+    while(1)
+    {
+        cin>>m;
+        if(m==1999)
+        {
+            cout<<"Correct";
+            break;
+        }
+        else
+            cout<<"Wrong"<<endl;
+    }
+ 
+}
