@@ -1,0 +1,104 @@
+#include<stdio.h>
+ 
+int max_number(int a,int b)
+ 
+{
+ 
+    if(a>b)
+ 
+        return a;
+ 
+    else
+ 
+        return b;
+ 
+}
+ 
+int min_number(int a,int b)
+ 
+{
+ 
+    if(a<b)
+ 
+        return a;
+ 
+    else
+ 
+        return b;
+ 
+}
+ 
+int main()
+ 
+{
+ 
+  int x,y,Max,Min,sum,i;
+ 
+  while(1)
+ 
+  {
+ 
+      sum=0;
+ 
+      scanf("%d%d",&x,&y);
+ 
+     
+ 
+      if(x<=0 || y<=0)
+ 
+        break;
+ 
+       
+ 
+      Max=max_number(x,y);
+ 
+      Min=min_number(x,y);
+ 
+      for(i=Min ; i<=Max ; i++)
+ 
+      {
+ 
+          printf("%d ",i);
+ 
+          sum=sum+i;
+ 
+      }
+ 
+      printf("sum =%d\n",sum);
+ 
+  }
+ 
+    return 0;
+ 
+}
+
+
+
+
+
+#### C++ ###
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int x,y,Max,Min,i;
+   while(1)
+   {
+       int sum=0;
+       cin>>x>>y;
+       if(x<=0 || y<=0)
+       {
+           break;
+       }
+       Max=max(x,y);
+       Min=min(x,y);
+       for(i=Min;i<=Max;i++)
+       {
+           cout<<i<<" ";
+           sum=sum+i;
+       }
+       cout<<"sum ="<<sum<<endl;
+   }
+    return 0;
+}
